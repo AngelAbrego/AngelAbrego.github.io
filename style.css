@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(images/WhatsApp\ Image\ 2024-10-04\ at\ 6.22.34\ PM.jpeg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 120vh;
+    align-items: center;
+    display: flex;
+
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.logo{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+    font-weight: 600;
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.header-txt{
+    text-align: center;
+}
+.header-txt h1{
+    font-size: 85px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.header-txt p{
+    color: white;
+    font-size: 16px;
+    padding: 0 250px;
+    margin-bottom: 45px ;
+}
+.general{
+    padding: 50px 0;
+    text-align: center;
+}
+.general-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.general-1{
+    background-image: url(images/20.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20%;
+    height: 450px;
+    padding: 160px 55px;
+}
+.general-2{
+    background-image: url(images/3.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20%;
+    height: 450px;
+    padding: 160px 55px;
+}
+.general-3{
+    background-image: url(images/6.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20%;
+    height: 450px;
+    padding: 160px 55px;
+}
+.general-4{
+    background-image: url(images/11.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20%;
+    height: 450px;
+    padding: 160px 55px;
+}
+.general-5{
+    background-image: url(images/12.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20%;
+    height: 450px;
+    padding: 160px 55px;
+}
+.general-6{
+    background-image: url(images/23.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20%;
+    height: 450px;
+    padding: 160px 55px;
+}
+h2{
+    font-size: 70px;
+    text-transform:initial;
+    color: blue;
+}
+.txt h3{
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.txt p {
+    color: white;
+    font-size: 15px;
+}
+.info-1{
+    padding: 250px 0;
+    background-image: url(images/40.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.info-content {
+    text-align: center;
+}
+
+.info-content h2, span{
+    color: white;
+}
+
+.info-circle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+
+}
+
+.circle-txt{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.circle-1 h3{
+    color: white;
+    font-size: 15px;
+}
+.circle-txt p{
+    color: white;
+    margin-top: 25px;
+}
+
+.info-2{
+    padding: 250px 0;
+    background-image: url(images/41.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.testi{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-top: 35px;;
+}
+.testi-left{
+    width: 50%;
+    padding-right: 25px;
+}
+.testi-right{
+    width: 50%;
+    padding-left: 35px;
+}
+
+.testi-txt{
+    margin-bottom: 25px;
+
+}
+.testi-txt img{
+    width: 200px;
+    margin-bottom: 15px;
+    border-radius: 20%;
+}
+
+.testi-txt h3{
+    font-size: 20px;
+    color:white;
+
+}
+.testi-txt p{
+    color: white;
+    font-size: 15px;
+}
+
+.footer h2{
+    text-align: center;
+}
+.footer-txt{
+    text-align: center;
+    color: white;
+}
+@media(max-width :991px){
+    .menu{
+        padding: 30px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu.navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: black;
+        display: none;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    .header{
+        min-height: 0vh;
+    }
+
+    .header-content{
+        padding: 100px 30px;
+
+    }
+    .header-txt h1{
+        font-size: 50px;
+    }
+    .header-txt p{
+        padding: 0;
+    }
+    .general{
+        padding: 30px 30px 0 30px;
+    }
+    .general-content{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .general-1,
+    .general-2,
+    .general-3,
+    .general-4,
+    .general-5,
+    .general-6{
+        height: 350px;
+        padding: 100px 40px;
+        margin-bottom: 10px;
+    }
+    .info-1{
+        padding: 200px 30px;
+        background-size: cover;
+    }
+    .info-circle{
+         flex-direction: column;
+         align-items: center;
+    }
+    .circle-txt{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .g2 {
+        margin-top: -120px;
+    }
+    .info-2{
+        padding: 280px 30px;
+        background-size: cover;
+    }
+    .testi{
+        flex-direction: column;
+    }
+    .testi-left{
+        width: 100%;
+        padding-right: 0;
+    }
+    .testi-right{
+        width: 100%;
+        padding-left: 0;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .footer{
+        padding: 0;
+        margin-top: -140px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        padding: 0 50px;
+    }
+    .campo{
+        margin: 0 0 10px 0;
+    }
+    
+}
